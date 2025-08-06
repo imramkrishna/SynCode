@@ -19,7 +19,7 @@ const Editor: React.FC = () => {
       {
         id: '1',
         name: 'app.js',
-        content: `// Welcome to CodeCollab!
+        content: `// Welcome to SynCode!
 // This is a real-time collaborative code editor
 
 function hello() {
@@ -37,7 +37,7 @@ hello();`,
       {
         id: '2',
         name: 'README.md',
-        content: `# CodeCollab
+        content: `# SynCode
 
 A real-time collaborative code editor built with React and Monaco Editor.
 

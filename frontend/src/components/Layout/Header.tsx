@@ -5,13 +5,13 @@ import { toggleSidebar, setTheme } from '../../store/slices/uiSlice';
 import { setShareDialogOpen } from '../../store/slices/collaborationSlice';
 import { logout } from '../../store/slices/authSlice';
 import Button from '../UI/Button';
-import { 
-  Menu, 
-  Share, 
-  Sun, 
-  Moon, 
-  Users, 
-  Settings, 
+import {
+  Menu,
+  Share,
+  Sun,
+  Moon,
+  Users,
+  Settings,
   LogOut,
   Code2
 } from 'lucide-react';
@@ -45,11 +45,11 @@ const Header: React.FC = () => {
           onClick={() => dispatch(toggleSidebar())}
           className="text-gray-600 dark:text-gray-300"
         />
-        
+
         <div className="flex items-center space-x-2">
           <Code2 className="w-6 h-6 text-blue-600" />
           <span className="font-semibold text-gray-900 dark:text-white">
-            CodeCollab
+            SynCode
           </span>
         </div>
       </div>
@@ -85,7 +85,7 @@ const Header: React.FC = () => {
           onClick={handleShare}
           className="text-gray-600 dark:text-gray-300"
         />
-        
+
         <Button
           variant="ghost"
           size="sm"
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
             >
               {user.name.charAt(0).toUpperCase()}
             </div>
-            
+
             <div className="hidden md:block">
               <p className="text-sm font-medium text-gray-900 dark:text-white">
                 {user.name}

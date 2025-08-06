@@ -14,7 +14,7 @@ const Login: React.FC = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-xl mb-4">
             <Code2 className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-gray-900">CodeCollab</h1>
+          <h1 className="text-2xl font-bold text-gray-900">SynCode</h1>
           <p className="text-gray-600">Real-time code collaboration</p>
         </div>
 
@@ -29,7 +29,7 @@ const Login: React.FC = () => {
 
         {/* Footer */}
         <div className="text-center mt-8 text-sm text-gray-500">
-          <p>© 2025 CodeCollab. All rights reserved.</p>
+          <p>© 2025 SynCode. All rights reserved.</p>
         </div>
       </div>
     </div>
