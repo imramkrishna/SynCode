@@ -1,0 +1,23 @@
+/* Light theme styles */
+:root {
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-secondary: #6b7280;
+  --color-accent: #f59e0b;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-background: #ffffff;
+  --color-surface: #f9fafb;
+  --color-surface-hover: #f3f4f6;
+  --color-text: #111827;
+  --color-text-secondary: #6b7280;
+  --color-border: #d1d5db;
+  --color-input-bg: #ffffff;
+  --color-input-border: #d1d5db;
+}
+
+.monaco-editor {
+  --vscode-editor-background: #ffffff;
+  --vscode-editor-foreground: #333333;
+}

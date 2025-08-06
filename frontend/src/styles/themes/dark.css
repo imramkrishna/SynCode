@@ -1,0 +1,28 @@
+/* Dark theme styles */
+.dark {
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-secondary: #6b7280;
+  --color-accent: #f59e0b;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-background: #111827;
+  --color-surface: #1f2937;
+  --color-surface-hover: #374151;
+  --color-text: #f9fafb;
+  --color-text-secondary: #d1d5db;
+  --color-border: #374151;
+  --color-input-bg: #374151;
+  --color-input-border: #4b5563;
+}
+
+.dark body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.dark .monaco-editor {
+  --vscode-editor-background: #1e1e1e;
+  --vscode-editor-foreground: #d4d4d4;
+}
